@@ -13,9 +13,6 @@ function displayEmployees() {
 
 // Function to calculate total salaries
 function calculateTotalSalaries() {
-  const totalSalaries = employees.reduce(
-    (acc, employee) => acc + employee.salary,
-    0
-  );
-  alert(`Total Salaries: $${totalSalaries}`);
-}
+      const totalSalaries = employees.reduce((acc, employee) => acc + employee.salary, 0);
+      alert(`Total Salaries: $${totalSalaries}`);
+    }
